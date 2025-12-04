@@ -1,9 +1,6 @@
 # Part 3 Report: VTK Visualization (Bonus)
 ## 2D Heat Equation Results Visualization
 
-**Student:** User51  
-**Date:** December 4, 2025
-
 ---
 
 ## 1. Overview
@@ -310,54 +307,6 @@ python visualize_heat_colab.py
 4. **Understanding:** Better insight into physical behavior
 5. **Publication:** Professional-quality figures for reports
 
-### 8.2 Best Practices Learned
-
-1. **Choose appropriate file format** based on use case
-2. **Use standard formats** (VTK) for interoperability
-3. **Provide multiple visualization methods** for different audiences
-4. **Document color map choices** for clarity
-5. **Include statistical summaries** alongside visualizations
-
-### 8.3 Future Enhancements
-
-1. **Animation:** Time evolution of temperature field
-2. **3D Visualization:** Surface plots for better depth perception
-3. **Comparative Visualization:** Side-by-side serial vs parallel results
-4. **Interactive Tools:** Web-based visualization with Plotly
-5. **Quantitative Overlays:** Add grid lines, temperature labels
-
 ---
 
-## 9. Deliverables
 
-### Files Included:
-
-1. **heat_with_vtk.c** - Modified solver with VTK output
-2. **visualize_heat_colab.py** - Matplotlib visualization script
-3. **visualize_heat.py** - Alternative with full VTK library
-4. **heat_output.vtk** - Sample VTK data file (generated)
-5. **heat_visualization.png** - Sample visualization image
-6. **This report** - Documentation and analysis
-
-### Generated Outputs:
-
-- VTK file: 2.1 MB (500×500 grid, ASCII format)
-- Visualization PNG: 1.3 MB (1200×600 pixels, 150 DPI)
-- Cross-section plots: Included in visualization script
-
----
-
-## 10. References
-
-1. Schroeder, W., Martin, K., & Lorensen, B. *The Visualization Toolkit*, 4th Edition, Kitware, 2006.
-2. VTK File Formats Documentation: https://vtk.org/wp-content/uploads/2015/04/file-formats.pdf
-3. Matplotlib Documentation: https://matplotlib.org/stable/index.html
-4. ParaView Guide: https://www.paraview.org/Wiki/ParaView
-
----
-
-**Report prepared by:** User51  
-**Submission date:** December 4, 2025  
-**Course:** High-Performance Computing  
-**Institution:** IE University  
-**Bonus Points Requested:** 20/20

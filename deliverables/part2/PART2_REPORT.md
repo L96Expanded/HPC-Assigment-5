@@ -1,11 +1,6 @@
 # Part 2 Report: GPU Acceleration using CUDA
 ## 2D Heat Equation Solver
 
-**Student:** User51  
-**Cluster:** hpcie.labs.faculty.ie.edu  
-**Date:** December 4, 2025  
-**GPU Method:** CUDA
-
 ---
 
 ## 1. Executive Summary
@@ -446,32 +441,4 @@ for (i = 1; i < NX - 1; i++) {
 
 ---
 
-## 10. References
 
-1. NVIDIA Corporation. *CUDA C Programming Guide*, Version 11.0, 2020.
-2. Sanders, J., & Kandrot, E. *CUDA by Example: An Introduction to General-Purpose GPU Programming*. Addison-Wesley, 2010.
-3. Kirk, D. B., & Hwu, W. W. *Programming Massively Parallel Processors*. Morgan Kaufmann, 2016.
-4. Course lecture materials: HPC Module 5 - GPU Computing
-
----
-
-## Appendices
-
-### Appendix A: Complete heat_gpu_cuda.cu Source Code
-See attached file: `heat_gpu_cuda.cu`
-
-### Appendix B: SLURM GPU Job Script
-See attached file: `heat_gpu_job.slurm`
-
-### Appendix C: GPU Profiling Output
-See attached file: `nvprof_output.txt`
-
-### Appendix D: Sample Output
-See attached file: `heat_gpu.out`
-
----
-
-**Report prepared by:** User51  
-**Submission date:** December 4, 2025  
-**Course:** High-Performance Computing  
-**Institution:** IE University

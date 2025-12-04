@@ -1,10 +1,6 @@
 # Part 1 Report: MPI and OpenMP Parallelization
 ## 2D Heat Equation Solver
 
-**Student:** User51  
-**Cluster:** hpcie.labs.faculty.ie.edu  
-**Date:** December 4, 2025
-
 ---
 
 ## 1. Executive Summary
@@ -280,29 +276,4 @@ mpirun -np 12 ./heat_parallel
 
 ---
 
-## 9. References
 
-1. MPI Forum. *MPI: A Message-Passing Interface Standard*, Version 3.1, 2015.
-2. OpenMP Architecture Review Board. *OpenMP Application Programming Interface*, Version 5.0, 2018.
-3. Gropp, W., Lusk, E., & Skjellum, A. *Using MPI: Portable Parallel Programming with the Message-Passing Interface*. MIT Press, 2014.
-4. Course lecture materials: HPC Module 5 - Parallel Programming
-
----
-
-## Appendices
-
-### Appendix A: Complete heat_parallel.c Source Code
-See attached file: `heat_parallel.c`
-
-### Appendix B: SLURM Job Script
-See attached file: `heat_job.slurm`
-
-### Appendix C: Sample Output
-See attached file: `heat_parallel.out`
-
----
-
-**Report prepared by:** User51  
-**Submission date:** December 4, 2025  
-**Course:** High-Performance Computing  
-**Institution:** IE University
