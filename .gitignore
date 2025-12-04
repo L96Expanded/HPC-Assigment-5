@@ -1,0 +1,55 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+heat_serial
+heat_parallel
+heat_gpu_cuda
+heat_gpu_openacc
+heat_with_vtk
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output files
+*.txt
+*.log
+slurm-*.out
+slurm-*.err
+
+# VTK output (except samples)
+heat_output_*.vtk
+!deliverables/part3/heat_output.vtk
+
+# Visualization outputs
+*.png
+*.jpg
+*.gif
+!docs/images/*.png
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
